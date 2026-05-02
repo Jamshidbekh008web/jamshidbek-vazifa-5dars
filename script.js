@@ -105,11 +105,22 @@
 
 // 9. company object yarating. Ichida: name va employees (array) bo‘lsin. employees ichida 2 ta
 // object (name va role) bo‘lsin. Keyin ikkinchi employee role ni chiqaring.
-let company ={
-	name:'JAmshidbek',
-	employes
-}
+// let company ={
+// 	name:'JAmshidbek',
+// 	employes:[
+// 		{name:'Sardor'},
+// 		{role:'bodur'}
+// 	]
+// }
+// console.log(company.employes[1]);
+
 // ====================================================================================================================================
 
 // 10. user object yarating. Ichida: name, hobbies (array), address (object) bo‘lsin. address ichida city
 // yozing. Keyin hobbies[0] va city ni chiqaring.
+let user ={
+name:"JAmshidbek",
+hobbies:["piano","futbol"],
+address:{city:"pop"}
+}
+console.log(user.hobbies[0].address['city']);
