@@ -118,14 +118,14 @@
 
 // 10. user object yarating. Ichida: name, hobbies (array), address (object) bo‘lsin. address ichida city
 // yozing. Keyin hobbies[0] va city ni chiqaring.
-const user = {
-	name: 'Jamshid',
-	hobbies: ['Futbol', 'slep', 'dasturlash'],
-	address: {
-		city: 'pop',
-		street: "navbahor",
-	},
-}
+// let user = {
+// 	name: 'Jamshid',
+// 	hobbies: ['Futbol', 'slep', 'dasturlash'],
+// 	address: {
+// 		city: 'pop',
+// 		street: "navbahor",
+// 	},
+// }
 
-console.log( user.hobbies[0])
-console.log( user.address.city)
+// console.log( user.hobbies[0])
+// console.log( user.address.city)
